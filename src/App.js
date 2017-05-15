@@ -18,15 +18,6 @@ class App extends Component {
 
 
 let filepath = "src/App.js";
-// let Child = React.createClass({
-//   render: function () {
-//     return (
-//       <p className="App-intro">
-//         {this.props.prefix}, edit <code>{filepath}</code> and save to reload.
-//       </p>
-//     );
-//   }
-// });
 
 class Child extends Component {
   render() {
